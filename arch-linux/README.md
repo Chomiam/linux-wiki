@@ -11,17 +11,34 @@ Arch Linux est une distribution GNU/Linux optimisée pour les architectures x86-
 ### [📦 Gestionnaires de paquets](./gestionnaires-paquets/)
 Guides complets sur pacman, les AUR helpers (yay, paru) et Flatpak.
 
+**Guides disponibles :**
+- [Pacman - Commandes essentielles](./gestionnaires-paquets/pacman.md)
+- [Flatpak - Installation et utilisation](./gestionnaires-paquets/flatpak.md)
+- [AUR - Yay et Paru](./gestionnaires-paquets/yay-paru.md)
+
 ### [⚙️ Installation](./installation/)
 Procédures d'installation et de configuration initiale.
+
+**Guides disponibles :**
+- [Archinstall - Guide d'installation détaillé](./installation/archinstall.md)
 
 ### [🔧 Configuration système](./configuration-systeme/)
 Configuration post-installation, services et optimisations.
 
+**Guides disponibles :**
+- _À venir_
+
 ### [🖥️ Environnements de bureau](./environnements-bureau/)
 Guides pour installer et configurer différents DE/WM.
 
+**Guides disponibles :**
+- _À venir_
+
 ### [⚡ Optimisations](./optimisations/)
 Tweaks et optimisations pour améliorer les performances.
+
+**Guides disponibles :**
+- _À venir_
 
 ## 🔗 Ressources officielles
 
