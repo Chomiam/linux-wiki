@@ -2,34 +2,26 @@
 
 ![openSUSE](https://en.opensuse.org/images/c/cd/Button-colour.png)
 
-openSUSE Tumbleweed est une distribution GNU/Linux rolling release stable et robuste, développée par la communauté openSUSE et soutenue par SUSE. Elle offre des outils de configuration avancés et une grande stabilité malgré ses mises à jour continues.
+## À propos d'openSUSE Tumbleweed
 
-## 📖 Sections disponibles
+openSUSE Tumbleweed est une distribution rolling release testée de manière rigoureuse, offrant un équilibre entre stabilité et logiciels à jour. Elle utilise des outils puissants comme YaST et Zypper.
 
-### [Gestionnaires de paquets](./gestionnaires-paquets/)
-Zypper, YaST, OPI, Flatpak et méthodes d'installation de paquets d'autres distributions.
+## 📚 Sections disponibles
 
-### [Installation](./installation/)
-Guides d'installation avec Btrfs, snapshots et configuration initiale.
+### [📦 Gestionnaires de paquets](./gestionnaires-paquets/)
+Guides complets sur Zypper, YaST, OPI, Flatpak et l'installation de paquets d'autres distributions.
 
-### [Configuration système](./configuration-systeme/)
-Configuration réseau, services, snapshots Snapper et paramètres système.
+### [⚙️ Installation](./installation/)
+Procédures d'installation et de configuration initiale.
 
-### [Optimisations](./optimisations/)
-Optimisations spécifiques à Tumbleweed et amélioration des performances.
+### [🔧 Configuration système](./configuration-systeme/)
+Configuration post-installation et optimisations.
 
-## 🌟 Points forts de Tumbleweed
-
-- **Rolling release stable** : Mises à jour continues avec tests approfondis
-- **Snapshots automatiques** : Système de récupération avec Btrfs et Snapper
-- **YaST** : Outil de configuration système complet et intuitif
-- **OBS** : Open Build Service pour compiler des paquets
-- **Support entreprise** : Basé sur les technologies SUSE
+### [⚡ Optimisations](./optimisations/)
+Tweaks spécifiques à openSUSE pour améliorer les performances.
 
 ## 🔗 Ressources officielles
 
-- [Wiki openSUSE](https://en.opensuse.org/)
-- [Site officiel](https://www.opensuse.org/)
-- [Forums](https://forums.opensuse.org/)
-- [OBS - Open Build Service](https://build.opensuse.org/)
-- [Documentation](https://doc.opensuse.org/)
+- [openSUSE Wiki](https://en.opensuse.org/)
+- [Forums openSUSE](https://forums.opensuse.org/)
+- [Documentation Tumbleweed](https://doc.opensuse.org/)

@@ -1,48 +1,35 @@
 # 📦 Gestionnaires de paquets - openSUSE Tumbleweed
 
-Guide complet pour gérer les logiciels sous openSUSE Tumbleweed.
+## Vue d'ensemble
 
-## 📑 Contenu
+openSUSE Tumbleweed offre plusieurs outils pour gérer les paquets logiciels, chacun avec ses avantages spécifiques.
 
-- [Zypper](./zypper.md) - Le gestionnaire de paquets en ligne de commande
+## 📋 Contenu
+
+### Gestionnaires principaux
+- [Zypper](./zypper.md) - Le gestionnaire de paquets en ligne de commande officiel
 - [YaST](./yast.md) - L'outil de configuration système graphique
-- [OPI](./opi.md) - Recherche et installation depuis multiples sources
-- [Flatpak](./flatpak.md) - Applications conteneurisées
-- [Installation inter-distributions](./install-autres-distros.md) - Méthodes pour installer des paquets d'autres distributions
 
-## 🎯 Quelle méthode choisir ?
+### Outils complémentaires
+- [OPI](./opi.md) - Recherche et installation simplifiée depuis plusieurs sources ⚠️
+- [Flatpak](./flatpak.md) - Applications universelles containerisées
 
-| Méthode | Avantages | Utilisation recommandée |
-|---------|-----------|------------------------|
-| **Zypper** | Rapide, puissant, intégré | Gestion quotidienne, scripts |
-| **YaST** | Interface graphique, complet | Configuration système, débutants |
-| **OPI** | Accès simplifié OBS/Packman | Paquets communautaires, codecs |
-| **Flatpak** | Isolation, versions récentes | Applications desktop isolées |
-| **AppImage/Alien** | Compatibilité inter-distros | Paquets .deb/.rpm d'autres distros |
+### Méthodes avancées
+- [Paquets inter-distributions](./paquets-autres-distributions.md) - Installation de paquets d'autres distributions
 
-## ⚡ Commandes rapides
+## 🎯 Quel outil utiliser ?
 
-```bash
-# Mettre à jour le système
-sudo zypper dup
+| Besoin | Outil recommandé |
+|--------|------------------|
+| Installation/mise à jour standard | `zypper` (CLI) ou YaST (GUI) |
+| Logiciel non disponible dans les dépôts officiels | OPI (avec précaution) |
+| Application moderne isolée du système | Flatpak |
+| Paquet d'une autre distribution | Conversion avec `alien` ou extraction manuelle |
+| Configuration système complète | YaST |
 
-# Installer un paquet
-sudo zypper install nom-paquet
+## ⚠️ Priorité des sources
 
-# Rechercher un paquet
-zypper search terme
-
-# OPI pour rechercher partout
-opi terme-recherche
-
-# Flatpak
-flatpak install application
-```
-
-## 🔒 Hiérarchie de sécurité recommandée
-
-1. **Dépôts officiels** (zypper/YaST) - Le plus sûr
-2. **OBS officiels** (via OPI avec prudence) - Vérifié par la communauté
-3. **Flatpak** (Flathub) - Isolé mais vérifier la source
-4. **OBS personnels** (via OPI) - ⚠️ Vérifier la réputation
-5. **Paquets externes** (.rpm/.deb) - ⚠️ Risque maximal
+1. **Dépôts officiels** (via Zypper/YaST) - Toujours privilégier en premier
+2. **Flatpak** - Pour les applications modernes non critiques
+3. **OPI** - Uniquement si nécessaire, avec vigilance sur la source
+4. **Conversion de paquets** - En dernier recours, risque de conflits
